@@ -54,3 +54,15 @@
     border: none;
     padding: 10px;
 }
+
+.about-container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.about-title{
+    text-align: center;
+    padding: 10px;
+}
