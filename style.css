@@ -24,13 +24,13 @@
     font-size: 18px;
 }
 .banner-image{
-    width: 300px;
+    width: 250px;
 }
 
 .banner-contener{
     display: flex;
     background-image: url("images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
     height: 100vh;
     background-size: cover;
@@ -53,6 +53,7 @@
     color: white;
     border: none;
     padding: 10px;
+    border-radius: 2px;
 }
 
 .about-container{
@@ -65,4 +66,42 @@
 .about-title{
     text-align: center;
     padding: 10px;
+}
+
+.service-container{
+    background-image: url("images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+}
+.box-container{
+    display: flex;
+    justify-content: space-around;
+    height: 80vh;
+    margin: 10px;
+    padding: 10px;
+}
+
+.box{
+    background-color: black;
+    color: white;
+    height: 280px;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px gray;
+}
+.service-title{
+    margin-top: 30px;
+    padding-top: 30px;
+    color: white;
+    text-align: center;
+}
+.icon{
+    width: 70px;
+}
+.box-btn{
+    background-color: rgba(128, 128, 128, 0.363);
+    margin-top: 10px;
+}
+.box-description{
+    padding: 5px;
 }
