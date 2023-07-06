@@ -23,3 +23,34 @@
     cursor: pointer;
     font-size: 18px;
 }
+.banner-image{
+    width: 300px;
+}
+
+.banner-contener{
+    display: flex;
+    background-image: url("images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-text{
+    color: white;
+}
+.title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.description{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+}
