@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.manu-container{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 20px;
+}
+.logo-photo{
+    width: 120px;
+}
+.manu{
+    display: flex;
+}
+.item{
+    margin-left: 10px;
+    padding-right: 7px;
+    cursor: pointer;
+    font-size: 18px;
+}
